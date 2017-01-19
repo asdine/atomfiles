@@ -1,0 +1,11 @@
+blob-store
+compile-cache
+dev
+storage
+local-history/
+recovery/
+.apm
+.node-gyp
+.npm
+packages/*
+!packages/package-sync

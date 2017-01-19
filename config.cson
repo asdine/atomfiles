@@ -1,0 +1,84 @@
+"*":
+  "atom-beautify":
+    c:
+      default_beautifier: "clang-format"
+    general: {}
+    html:
+      beautify_on_save: true
+      disabled: true
+      indent_size: 2
+    js:
+      brace_style: "expand"
+      disabled: true
+      indent_size: 2
+      jslint_happy: true
+    jsx:
+      beautify_on_save: true
+      disabled: true
+      indent_size: 2
+    scss:
+      align_assignments: true
+      beautify_on_save: true
+      indent_size: 2
+      preserve_newlines: true
+  core:
+    packagesWithKeymapsDisabled: [
+      "emmet"
+    ]
+    telemetryConsent: "no"
+  editor: {}
+  esformatter:
+    formatOnSave: true
+  "eslint-fixer":
+    fileType: "js,jsx"
+    ysuccess:
+      contents: true
+  "exception-reporting":
+    userId: "a1597db0-e675-3cea-a90a-36446d2c80d5"
+  "go-config": {}
+  "go-plus":
+    currentPanelHeight: "42.317880794701985vh"
+    lint:
+      args: [
+        "--vendor"
+        "--disable-all"
+        "--enable=vet"
+        "--enable=golint"
+        "--enable=ineffassign"
+        "--enable=goconst"
+        "--tests"
+        "--json"
+        "."
+      ]
+  "gometalinter-linter":
+    args: [
+      "--vendor"
+      "--disable-all"
+      "--enable=vet"
+      "--enable=golint"
+      "--enable=ineffassign"
+      "--enable=goconst"
+      "--tests"
+      "--json"
+      "."
+    ]
+  jsformat:
+    jslint_happy: true
+  linter:
+    errorPanelHeight: 102
+  "linter-eslint":
+    fixOnSave: true
+    lintHtmlFiles: true
+  minimap:
+    plugins:
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
+  react: {}
+  "tester-go":
+    coverageHighlightMode: "covered-and-uncovered"
+    runCoverageOnSave: true
+  welcome:
+    showOnStartup: false
